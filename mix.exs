@@ -16,7 +16,7 @@ defmodule Exepf.Mixfile do
   # { :foobar, "0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
     [
-      {:couchie, github: "NirvanaPlatform/couchie"},
+      {:couchie, github: "nirvana/couchie"},
       {:flake, github: "boundary/flake", compile: "rebar compile deps_dir=#{Path.expand(:deps)} && ln -s apps/flake/ebin ebin"}
     ]
   end
